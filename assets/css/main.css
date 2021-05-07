@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/assets/fonts/Poppins-Regular.ttf)
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(/assets/fonts/OpenSans-Regular.ttf)
+}
+
+*{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    /* height: 80px; */
+    background-image: linear-gradient(to right, #00308F, #2057c7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.webname h1{
+    color: #ffffff;
+    font-family: Poppins !important; 
+}
+
+.tabs a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all ease .4s;
+}
+
+.tabs a:hover{
+    padding: 8px 0;
+    border-bottom: 3px solid #ffffff;
+    border: 1;
+    border-radius: 3px;
+}
+
+
+
+input[type=text]{
+    padding-left: 40px;
+    background: url(../images/search.png) no-repeat;
+    background-size: 20px;
+    background-color: #ffffff;
+    background-position: 10px;
+}
+
+.kiri{
+margin-top: 5vh;
+}
+.kanan{
+    margin-top: 7vh;
+}
+
+.cekresi{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    border-radius: 25px;
+  border: 2px solid blue;
+ 
+  
+}
+
+.detailkon{
+    padding-left: 2vw;
+}
+
+.contactatas{
+    text-align: center;
+    background-image: url('https://blog.creatopy.com/wp-content/uploads/2019/01/cool-banner-ads-examples.png');
+    background-position: center;
+    
+}
+.detailkon{
+    background-color: black ;
+  padding-top: 3vh;
+   padding-bottom: 4vh;
+}
+
+.texatas{
+    
+    margin-top: 30vh;
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+    background-color: lightblue;
+}
+
+.textgede{
+padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+#jumbotron{
+    
+}
+
+
+
+
+#jumbo-img img{
+    width: 100%;
+    object-position: 0 -130px;
+}
+
+/* FOOTER */
+
+footer{
+    /* background: #313131; */
+    text-align: center;
+    padding: 15px 0;
+    color: #313131;
+    margin-top: 10%;
+}
+
+footer h2{
+    font-family: Poppins;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+.btm-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .line{
+    width: 1.2px;
+    height: 15px;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .webname, .tabs{
+        width: 100%;
+    }
+
+    nav{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to bottom, #00308F, #2057c7);
+
+    }
+
+    .tabs a{
+        margin-right: 13px;
+    }
+
+    input{
+        margin-top: 5px;
+        width: 100% !important;
+    }
+  }
